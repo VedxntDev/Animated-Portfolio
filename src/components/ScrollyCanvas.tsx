@@ -17,7 +17,7 @@ export default function ScrollyCanvas({ scrollYProgress }: ScrollyCanvasProps) {
     // Load all images on mount
     useEffect(() => {
         const preloadImages = async () => {
-            const loadedImages: HTMLImageElement[] = [];
+            /*const loadedImages: HTMLImageElement[] = [];*/
             const imagePromises = [];
 
             for (let i = 0; i < FRAME_COUNT; i++) {
